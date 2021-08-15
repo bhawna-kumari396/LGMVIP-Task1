@@ -96,6 +96,20 @@ nav .navbar .menu li a{
         width: 80%;
     }
 
+    /* === Visited place === */
+    .visitedplace .counter-item{
+        flex-wrap: wrap;
+    }
+    .visitedplace .counter-item .counter-text{
+        width: calc(100% / 2 - 1.25rem);
+        margin-bottom: 1.5rem;
+    }
+    .visitedplace .counter-item .counter-text::before{
+        background: transparent;
+
+
+    }
+
 
 }
 
@@ -156,6 +170,20 @@ nav .navbar .menu li a{
           text-align: left;
 
       }
+
+      /*==== Visited place ====*/
+
+      .visitedplace .counter-item{
+          flex-direction: column;
+      }
+      .visitedplace .counter-item .counter-text{
+          margin-bottom: 2rem;
+          width:100%;
+          
+
+      }
+
+
 
     }
 
